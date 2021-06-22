@@ -4,9 +4,7 @@
     <list default="true" id="c8f41ee9-8824-4a2d-8dd7-7939fc1165e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +29,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/Pause.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/Retry.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/PauseMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uHRC1hhUbXwq5sTkGwafMwHyjZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
