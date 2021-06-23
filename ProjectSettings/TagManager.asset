@@ -6,6 +6,12 @@ TagManager:
   tags:
   - WayPoints
   - Enemy
+  - TowerAttack
+  - TowerSup
+  - T1
+  - T2
+  - T3
+  - Tower
   layers:
   - Default
   - TransparentFX

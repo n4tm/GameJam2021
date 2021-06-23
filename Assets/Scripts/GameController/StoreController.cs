@@ -1,27 +1,20 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
 
 namespace GameController
 {
     public class StoreController : MonoBehaviour
     {
-        [SerializeField] private GameObject panelStore;
-
-        public void ChangeScene(string LevelName)
-        {
-            SceneManager.LoadScene(LevelName);
-        }
+        [SerializeField] private GameObject PanelStore;
 
         public void OpenStore()
         {
-            if (!panelStore.activeInHierarchy)
+            if (!PanelStore.activeInHierarchy)
             {
-                panelStore.SetActive(true);
+                PanelStore.SetActive(true);
             }
             else
             {
-                panelStore.SetActive(false);
+                PanelStore.SetActive(false);
             }
         }
     }
