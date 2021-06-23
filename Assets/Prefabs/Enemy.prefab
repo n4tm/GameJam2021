@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 9183648548321001258}
   - component: {fileID: 9183648548321001259}
   - component: {fileID: 9183648548321001260}
+  - component: {fileID: 6080643882576611537}
   - component: {fileID: -8123106397698668}
   - component: {fileID: 8949545106272348329}
   m_Layer: 0
@@ -144,9 +145,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd3052b05c3b8074cab4595e8fcc122f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 10
+  maxLife: 100
   lifeBar: {fileID: 9183648549573440130}
-  lifeBarObject: {fileID: 9183648548307750440}
+--- !u!114 &6080643882576611537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9183648548321001256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace377ec059fab042abec6887788770b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeBar: {fileID: 9183648548321001260}
 --- !u!61 &-8123106397698668
 BoxCollider2D:
   m_ObjectHideFlags: 0

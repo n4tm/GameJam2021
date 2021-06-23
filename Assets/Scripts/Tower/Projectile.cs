@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Enemy;
 using UnityEngine;
 
 namespace Tower
@@ -6,6 +6,7 @@ namespace Tower
     public class Projectile : MonoBehaviour
     {
         [SerializeField] private float speed;
+        [SerializeField] private float damageAmount;
         private Transform targetTransform;
 
         public void SetTargetTransform(Transform newTargetTransform)
@@ -28,7 +29,7 @@ namespace Tower
         {
             if (other.CompareTag("Enemy"))
             {
-                // Diminuir HP do inimigo aqui
+                other.GetComponent<EnemyLife>().TakeDamage(damageAmount);
                 Destroy(gameObject);
             }
         }

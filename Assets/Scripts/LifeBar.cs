@@ -1,26 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LifeBar : MonoBehaviour
 {
-    public int life;
+    public int maxLife;
     public Transform lifeBar;
-    public GameObject lifeBarObject;
 
     private Vector3 lifeBarScale;
 
-    private float lifePercent;
-    
+    public float LifePercent { get; set; }
+
     void Start()
     {
         lifeBarScale = lifeBar.localScale;
-        lifePercent = lifeBarScale.x / life;
+        LifePercent = lifeBarScale.x / maxLife;
     }
 
-    void UpdateLifeBar()
+    public void UpdateLifeBar()
     {
-        lifeBarScale.x = lifePercent / life;
+        lifeBarScale.x = LifePercent*maxLife;
         lifeBar.localScale = lifeBarScale;
+        if (LifePercent <= 0) Destroy(gameObject);
     }
 }
