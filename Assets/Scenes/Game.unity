@@ -2799,7 +2799,7 @@ Transform:
   - {fileID: 1803262477}
   - {fileID: 641470842}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &641470841
 GameObject:
@@ -2943,7 +2943,7 @@ Transform:
   m_LocalScale: {x: 0.8, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &783581270
 CircleCollider2D:
@@ -2974,7 +2974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 7067738700699602932, guid: 43b9436506f5ea445ac005363028fb9e, type: 3}
-  target: {fileID: 0}
+  audioManager: {fileID: 1529356217}
 --- !u!1 &908992919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3233,6 +3233,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1529356217}
+        m_TargetAssemblyTypeName: Sounds.AudioManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PauseMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &964536113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3364,6 +3376,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1529356217}
+        m_TargetAssemblyTypeName: Sounds.AudioManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ButtonClicked
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &998548559
@@ -4523,6 +4547,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1529356217}
+        m_TargetAssemblyTypeName: Sounds.AudioManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ButtonClicked
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1286106964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4620,7 +4656,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1402464950
 MonoBehaviour:
@@ -4808,7 +4844,7 @@ RectTransform:
   - {fileID: 1429743959}
   - {fileID: 1551406049}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4850,6 +4886,70 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512734228}
   m_CullTransparentMesh: 1
+--- !u!1 &1529356215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1529356216}
+  - component: {fileID: 1529356217}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1529356216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529356215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.36141285, y: -0.0006924905, z: 15139.478}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1529356217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529356215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc9c5143d5d6414eaa6e69fa87a2929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MageTowerProjectile
+    clip: {fileID: 8300000, guid: e46ab658dab552e4eaa50651233bf5d6, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyDead
+    clip: {fileID: 8300000, guid: abea0bbed20adfe4fbecae94e4665d70, type: 3}
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: PauseMenu
+    clip: {fileID: 8300000, guid: 82cf967df8e39804a960a4cbe3a61a82, type: 3}
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
+  - name: ButtonClicked
+    clip: {fileID: 8300000, guid: 9119fce70324ede4ba2573fce7102535, type: 3}
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
 --- !u!1 &1551406048
 GameObject:
   m_ObjectHideFlags: 0
@@ -5143,6 +5243,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1529356217}
+        m_TargetAssemblyTypeName: Sounds.AudioManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ButtonClicked
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1779886765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5352,7 +5464,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1960963460
 GameObject:
@@ -5397,7 +5509,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1984882343
 GameObject:
@@ -5493,7 +5605,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2070858027
 GameObject:
@@ -5538,7 +5650,7 @@ Transform:
   - {fileID: 259169768}
   - {fileID: 1212251412}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2072540321
 GameObject:

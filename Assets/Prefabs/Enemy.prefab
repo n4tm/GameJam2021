@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLife: 100
   lifeBar: {fileID: 9183648549573440130}
+  audioManager: {fileID: 0}
 --- !u!114 &6080643882576611537
 MonoBehaviour:
   m_ObjectHideFlags: 0

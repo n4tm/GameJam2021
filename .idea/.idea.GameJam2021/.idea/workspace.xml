@@ -7,8 +7,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sounds/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Towers/CreatingTowers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Towers/CircleRender.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -32,11 +32,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CircleRender.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/DragDropTowers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CreatingTowers.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLifeBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/Sound.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uHRC1hhUbXwq5sTkGwafMwHyjZ" />
@@ -85,7 +88,7 @@
       <workItem from="1624320403670" duration="4272000" />
       <workItem from="1624371530578" duration="25843000" />
       <workItem from="1624419258301" duration="638000" />
-      <workItem from="1624448627899" duration="3663000" />
+      <workItem from="1624448627899" duration="11046000" />
     </task>
     <servers />
   </component>
