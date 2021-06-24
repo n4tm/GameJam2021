@@ -22,7 +22,6 @@ public class LifeBar : MonoBehaviour
         if (LifePercent <= 0)
         {
             Destroy(gameObject);
-            
             FindObjectOfType<AudioManager>().Play("EnemyDead");
         }
     }
