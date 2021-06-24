@@ -16,8 +16,13 @@ namespace Enemy
             {
                 nextSpawn = Time.time + spawnRate;
 
-                Instantiate(enemy, transform.position, enemy.transform.rotation, transform);
+                SpawnEnemy();
             }
+        }
+
+        void SpawnEnemy()
+        {
+            Instantiate(enemy, transform.position, enemy.transform.rotation, transform);
         }
     }
 }

@@ -25,7 +25,10 @@ namespace Enemy
                 }
                 else
                 {
+                    WaveSpawner.enemiesAlive--;
+                    Debug.Log("morreu");
                     Destroy(gameObject);
+                    
                 }
 
             

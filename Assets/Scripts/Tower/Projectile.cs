@@ -31,6 +31,8 @@ namespace Tower
             {
                 other.GetComponent<EnemyLife>().TakeDamage(damageAmount);
                 Destroy(gameObject);
+
+                
             }
         }
     }

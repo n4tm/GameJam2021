@@ -23,6 +23,7 @@ public class LifeBar : MonoBehaviour
         {
             Destroy(gameObject);
             FindObjectOfType<AudioManager>().Play("EnemyDead");
+            WaveSpawner.enemiesAlive--;
         }
     }
 }
