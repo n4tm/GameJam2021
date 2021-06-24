@@ -1,3 +1,5 @@
+using GameController;
+using TMPro;
 using UnityEngine;
 
 namespace Enemy
@@ -7,7 +9,8 @@ namespace Enemy
         public float speed;
         private WayPoints wPoints;
         private int wayPointIndex;
-        
+        [SerializeField] private int damageAmount;
+
         private void Start()
         {
             wPoints = GameObject.FindGameObjectWithTag("WayPoints").GetComponent<WayPoints>();
@@ -26,12 +29,9 @@ namespace Enemy
                 else
                 {
                     WaveSpawner.enemiesAlive--;
-                    Debug.Log("morreu");
-                    Destroy(gameObject);
-                    
+                    GameManager.Instance.Pool.ReleaseObject(gameObject);
+                    GameManager.Instance.LoseLives(damageAmount);
                 }
-
-            
             }
         }
     
