@@ -7,7 +7,7 @@ namespace Tower
     {
         private SpriteRenderer _spriteRenderer;
         public bool canPlace = true;
-        private void OnTriggerEnter2D(Collider2D other)
+        private void OnTriggerStay2D(Collider2D other)
         {
             _spriteRenderer = GetComponentInParent<SpriteRenderer>();
             if (other.CompareTag("Tower") || other.CompareTag("Road"))

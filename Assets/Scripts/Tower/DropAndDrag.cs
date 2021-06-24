@@ -1,3 +1,4 @@
+using GameController;
 using UnityEngine;
 
 namespace Tower
@@ -8,7 +9,7 @@ namespace Tower
         public AttackArea _AttackArea;
         public CreatingTowers _cTowers;
         public CanBePlaced _canBePlaced;
-    
+
         // Mover o objeto Pai com o filho
         public GameObject dadTower;
     
@@ -55,21 +56,20 @@ namespace Tower
         {
             if (IsDragged && _money >= TowerCost && _canBePlaced.canPlace)
             {
-                _AttackArea.HideCircle();
-                IsDragged = false;
                 finalPos = gameObject.transform.position;
-                for (int i = 0; i < _cTowers.count; i++)
-                {
-                    _cTowers.Towers[i].GetComponentInChildren<AttackArea>().HideCircle();
-                }
+                
                 _cTowers.NewTower(dadTower, finalPos);
                 dadTower.transform.position = initialPos;
                 _money -= TowerCost;
             }
-            else
+            
+            for (int i = 0; i < _cTowers.count; i++)
             {
-                dadTower.transform.position = initialPos;
+                _cTowers.Towers[i].GetComponentInChildren<AttackArea>().HideCircle();
             }
+            IsDragged = false;
+            _AttackArea.HideCircle();
+            dadTower.transform.position = initialPos;
         }
     }
 }
