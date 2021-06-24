@@ -31,6 +31,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Towers/CircleRender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Towers/CircleRender.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,6 +55,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/DragDrop.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CircleRender.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CreatingTowers.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Towers/TowerCol.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/DragDropTowers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CreatingTowers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLifeBehaviour.cs" />
@@ -78,6 +88,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">

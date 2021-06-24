@@ -12,6 +12,8 @@ TagManager:
   - T2
   - T3
   - Tower
+  - Road
+  - Attack
   layers:
   - Default
   - TransparentFX
