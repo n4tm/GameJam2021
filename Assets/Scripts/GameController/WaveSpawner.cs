@@ -22,9 +22,8 @@ namespace GameController
             {
                 return;
             }
-        
-        
-            if (countdown <= 0f)
+            
+            else if (countdown <= 0f)
             {
                 StartCoroutine(SpawnWave());
                 countdown = timeBetweenWaves;
@@ -43,17 +42,18 @@ namespace GameController
             Wave wave = Waves[waveIndex];
             for (int i = 0; i < wave.count; i++)
             {
-                SpawnEnemy(wave.enemy);
+                SpawnEnemy(wave.enemyTypes[Random.Range(0, 3)]);
                 yield return new WaitForSeconds(1f / wave.rate);
             }
             waveIndex++;
         
         }
 
-        void SpawnEnemy(GameObject enemy)
+        public void SpawnEnemy(string enemyType)
         {
-            Instantiate(enemy, spawnPoint.position, spawnPoint .rotation, transform);
+            GameObject obj = GameManager.Instance.Pool.GetObject(enemyType);
             enemiesAlive++;
         }
+        
     }
 }

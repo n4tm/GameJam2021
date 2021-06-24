@@ -6,10 +6,9 @@ namespace Enemy
     {
         [SerializeField] private LifeBar lifeBar;
 
-        public void TakeDamage(float damageAmount)
+        public void TakeDamage(int damageAmount)
         {
-            lifeBar.LifePercent -= damageAmount/10/lifeBar.maxLife;
-            if (lifeBar.LifePercent < 0) lifeBar.LifePercent = 0;
+            lifeBar.actualLife -= damageAmount;
             lifeBar.UpdateLifeBar();
         }
         

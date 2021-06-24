@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8f41ee9-8824-4a2d-8dd7-7939fc1165e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/pixel-heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/pixel-heart.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemySimple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemySimple.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,27 +48,27 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/DragDropTowers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CreatingTowers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLifeBehaviour.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/Sound.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/AudioManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Spawn.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/NextWave.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/ObjectPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Singleton.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uHRC1hhUbXwq5sTkGwafMwHyjZ" />
@@ -128,6 +126,7 @@
       <workItem from="1624538294980" duration="707000" />
       <workItem from="1624541965858" duration="4586000" />
       <workItem from="1624555283176" duration="3336000" />
+      <workItem from="1624564836400" duration="4580000" />
     </task>
     <servers />
   </component>

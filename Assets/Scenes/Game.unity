@@ -5233,20 +5233,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waves:
-  - enemy: {fileID: 9183648548321001256, guid: 50b715a7a68962842b80e919e8218bcb, type: 3}
-    count: 1
+  - count: 1
     rate: 2
-  - enemy: {fileID: 9183648548321001256, guid: 50b715a7a68962842b80e919e8218bcb, type: 3}
-    count: 2
+  - count: 2
     rate: 2
-  - enemy: {fileID: 9183648548321001256, guid: 50b715a7a68962842b80e919e8218bcb, type: 3}
-    count: 5
+  - count: 5
     rate: 2
-  - enemy: {fileID: 9183648548321001256, guid: f06b6290cb166bd42ad15762e7005a09, type: 3}
-    count: 3
+  - count: 3
     rate: 1
-  - enemy: {fileID: 9183648548321001256, guid: 8a5dc8fbd2525724c95655441f139432, type: 3}
-    count: 10
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
+    rate: 3
+  - count: 10
     rate: 3
   spawnPoint: {fileID: 565979763}
   timeBetweenWaves: 5.5
@@ -5617,9 +5662,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1589419599}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: StartWave
+      - m_Target: {fileID: 1402464951}
+        m_TargetAssemblyTypeName: GameController.WaveSpawner, Assembly-CSharp
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7374,7 +7419,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960963460}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c510113f6e07daa449341ed5ffb9758c, type: 3}
   m_Name: 

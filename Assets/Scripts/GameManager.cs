@@ -32,32 +32,4 @@ public class GameManager : Singleton<GameManager>
                 livesTxt.text = lives.ToString();
         }
 
-        public void StartWave()
-        {
-                StartCoroutine(SpawnWave());
-        }
-
-        private IEnumerator SpawnWave()
-        {
-                int monsterIndex = Random.Range(0, 4);
-                string type = string.Empty;
-                switch (monsterIndex)
-                {
-                        case 0:
-                                type = "EnemyBandit";
-                                break;
-                        case 1:
-                                type = "EnemySimple";
-                                break;
-                        case 2:
-                                type = "EnemyTank";
-                                break;
-                }
-
-                Pool.GetObject(type);
-                
-                yield return new WaitForSeconds(2.5f);
-        }
-
-
 }
