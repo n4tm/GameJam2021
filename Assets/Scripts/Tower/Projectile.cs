@@ -5,34 +5,39 @@ namespace Tower
 {
     public class Projectile : MonoBehaviour
     {
-        [SerializeField] private float speed;
-        [SerializeField] private float damageAmount;
-        private Transform targetTransform;
-
-        public void SetTargetTransform(Transform newTargetTransform)
-        {
-            targetTransform = newTargetTransform;
-        }
+        private TowerAttack towerAttack;
+        private GameObject target;
         
+
         private void Update()
         {
-            if (targetTransform != null) Move();
+            MoveToTarget();
         }
 
-        private void Move()
+        public void Initialize(TowerAttack parent)
         {
-            var targetPosition = targetTransform.position;
-            transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed);
+            target = parent.target;
+            towerAttack = parent;
+        }
+
+        private void MoveToTarget()
+        {
+            if (target != null && target.activeInHierarchy)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, target.transform.position,
+                    Time.deltaTime * towerAttack.projectileSpeed*100);
+                Vector2 dir = target.transform.position - transform.position;
+                float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            }
         }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Enemy"))
             {
-                other.GetComponent<EnemyLife>().TakeDamage(damageAmount);
-                Destroy(gameObject);
-
-                
+                other.GetComponent<EnemyLife>().TakeDamage(towerAttack.damage);
+                GameManager.Instance.Pool.ReleaseObject(gameObject);
             }
         }
     }

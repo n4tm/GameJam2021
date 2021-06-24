@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using Sounds;
 using UnityEngine;
@@ -7,22 +6,54 @@ namespace Tower
 {
     public class TowerAttack : MonoBehaviour
     {
-        [SerializeField] private Projectile projectile;
+        [SerializeField] private string projectileType;
+        public float projectileSpeed;
         [SerializeField] private AudioManager audioManager;
-        private Queue<Transform> targets = new Queue<Transform>();
-        private Projectile newProjectile;
-        
+        [HideInInspector] public GameObject target;
+        private Queue<GameObject> targets = new Queue<GameObject>();
+        private bool canAttack = true;
+        private float attackTimer;
+        [SerializeField] private float attackCooldown;
+        public int damage;
+
         private void FixedUpdate()
         {
-            if (targets.Count != 0) newProjectile.SetTargetTransform(targets.Peek());
+            Attack();
+        }
+
+        private void Attack()
+        {
+            if (!canAttack)
+            {
+                attackTimer += Time.deltaTime;
+                if (attackTimer >= attackCooldown)
+                {
+                    canAttack = true;
+                    attackTimer = 0;
+                }
+            }
+            if (target == null && targets.Count > 0) target = targets.Dequeue();
+            if (target != null && target.activeInHierarchy)
+            {
+                if (canAttack) Shoot();
+                canAttack = false;
+            }
+        }
+
+        private void Shoot()
+        {
+            Projectile projectile = GameManager.Instance.Pool.GetObject(projectileType).GetComponent<Projectile>();
+            projectile.Initialize(this);
+            projectile.transform.position = transform.position;
+
+            audioManager.Play("MageTowerProjectile");
         }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Enemy"))
             {
-                targets.Enqueue(other.gameObject.transform);
-                newProjectile = Instantiate(projectile, transform.position, Quaternion.identity, transform);
+                targets.Enqueue(other.gameObject);
             }
         }
 
@@ -30,7 +61,7 @@ namespace Tower
         {
             if (other.CompareTag("Enemy"))
             {
-                targets.Dequeue();
+                target = null;
             }
         }
     }

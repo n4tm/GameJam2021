@@ -7,7 +7,7 @@ namespace Enemy
         public float speed;
         private WayPoints wPoints;
         private int wayPointIndex;
-
+        
         private void Start()
         {
             wPoints = GameObject.FindGameObjectWithTag("WayPoints").GetComponent<WayPoints>();
