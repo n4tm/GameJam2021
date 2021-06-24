@@ -3,25 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="c8f41ee9-8824-4a2d-8dd7-7939fc1165e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AttackTower-1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AttackTower-1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AttackTower-2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AttackTower-2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuportTower-1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuportTower-1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Store.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttackBehaviours.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CreateTower.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CreateTower.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttacker1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttacker1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerBuffs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerBuffs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Configuration.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Configuration.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity.bak.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +32,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/Tutorial-mobile/Assets/Script/GameController/MenuController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Towers/CircleRender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Towers/CircleRender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/NextWave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Towers/CreatingTowers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sounds/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -45,6 +49,22 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CircleRender.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/DragDropTowers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CreatingTowers.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLifeBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/Sound.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Sounds/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Spawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/NextWave.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uHRC1hhUbXwq5sTkGwafMwHyjZ" />
@@ -53,6 +73,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -91,6 +112,11 @@
       <updated>1624320399150</updated>
       <workItem from="1624320403670" duration="4272000" />
       <workItem from="1624371530578" duration="25843000" />
+      <workItem from="1624419258301" duration="638000" />
+      <workItem from="1624448627899" duration="11046000" />
+      <workItem from="1624488714985" duration="6805000" />
+      <workItem from="1624448627899" duration="3663000" />
+      <workItem from="1624462474717" duration="14970000" />
     </task>
     <servers />
   </component>
@@ -109,6 +135,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
