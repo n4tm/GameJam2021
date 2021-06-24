@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: -8123106397698668}
   - component: {fileID: 8949545106272348329}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: EnemySimple
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLife: 100
   lifeBar: {fileID: 9183648549573440130}
+  moneyDrop: 10
 --- !u!114 &6080643882576611537
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -868,7 +868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0af8a5c9ad23a1f4396c97fe413439f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _drop: {fileID: 0}
+  _drop: {fileID: 1253865728}
   Towers:
   - {fileID: 0}
   - {fileID: 0}
@@ -1174,8 +1174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a44cb303f19ec40a6ee62a882544c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attackArea: {fileID: 1204573478}
-  _circleCollider2D: {fileID: 1419169329}
+  TowerFun: {fileID: 0}
+  Renderer: {fileID: 0}
 --- !u!212 &1204573481
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1284,10 +1284,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a9ff1a601a845345b26b1c19fdbf77f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DropTowers: {fileID: 0}
-  NewTower: {fileID: 0}
-  Towers: []
-  TowerCounter: 0
 --- !u!1 &1253865725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,6 +1329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6df986d72808644c9cbe545dc7c56e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canPlace: 1
 --- !u!114 &1253865728
 MonoBehaviour:
   m_ObjectHideFlags: 0

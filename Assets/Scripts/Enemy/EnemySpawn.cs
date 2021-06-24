@@ -4,6 +4,7 @@ namespace Enemy
 {
     public class EnemySpawn : MonoBehaviour
     {
+        [SerializeField] private string enemyType;
         public GameObject enemy;
         public float spawnRate;
 
@@ -22,7 +23,7 @@ namespace Enemy
 
         void SpawnEnemy()
         {
-            Instantiate(enemy, transform.position, enemy.transform.rotation, transform);
+            GameManager.Instance.Pool.GetObject(enemyType);
         }
     }
 }

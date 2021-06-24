@@ -6,6 +6,7 @@ public class LifeBar : MonoBehaviour
     public int maxLife;
     public Transform lifeBar;
     private Vector3 lifeBarScale;
+    [SerializeField] private int moneyDrop;
 
     public float LifePercent { get; set; }
 
@@ -21,9 +22,10 @@ public class LifeBar : MonoBehaviour
         lifeBar.localScale = lifeBarScale;
         if (LifePercent <= 0)
         {
-            Destroy(gameObject);
+            GameManager.Instance.Pool.ReleaseObject(gameObject);
             FindObjectOfType<AudioManager>().Play("EnemyDead");
             WaveSpawner.enemiesAlive--;
+            GameManager.Instance.EarnMoney(moneyDrop);
         }
     }
 }
