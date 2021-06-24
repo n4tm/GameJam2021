@@ -3003,8 +3003,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f06d6cd1c61bfde49a97f97ae6f7d392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 7067738700699602932, guid: 43b9436506f5ea445ac005363028fb9e, type: 3}
+  projectileType: Projectile
+  projectileSpeed: 4
   audioManager: {fileID: 1529356217}
+  target: {fileID: 0}
+  attackCooldown: 3
+  damage: 40
 --- !u!1 &908992919
 GameObject:
   m_ObjectHideFlags: 0
@@ -5225,6 +5229,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551406048}
   m_CullTransparentMesh: 1
+--- !u!1 &1589419597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589419600}
+  - component: {fileID: 1589419599}
+  - component: {fileID: 1589419598}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1589419598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589419597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63e8d58bdb36d64a867bbe1ea89adb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefabs:
+  - {fileID: 7067738700699602923, guid: 43b9436506f5ea445ac005363028fb9e, type: 3}
+--- !u!114 &1589419599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589419597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982eeece51b5abf4cb05fa09029ad469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1589419600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589419597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6462451, y: -0.40249246, z: 15565.691}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1649245095
 GameObject:
   m_ObjectHideFlags: 0
