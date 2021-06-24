@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-
 namespace GameController
 {
     public class WaveSpawner : MonoBehaviour
@@ -25,6 +24,7 @@ namespace GameController
             
             else if (countdown <= 0f)
             {
+                GameManager.Rounds++;
                 StartCoroutine(SpawnWave());
                 countdown = timeBetweenWaves;
                 return;
@@ -46,7 +46,12 @@ namespace GameController
                 yield return new WaitForSeconds(1f / wave.rate);
             }
             waveIndex++;
-        
+
+            if (waveIndex == Waves.Length)
+            {
+                GameManager.Instance.VictoryGame();
+            }
+            
         }
 
         public void SpawnEnemy(string enemyType)
