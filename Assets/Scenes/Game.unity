@@ -7337,7 +7337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waves:
-  - count: 1
+  - count: 2
     rate: 2
   - count: 2
     rate: 2

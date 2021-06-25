@@ -18,6 +18,7 @@ namespace GameController
 
                 private void Start()
                 {
+                        Time.timeScale = 1;
                         lives = 1;
                         money = 500;
                         livesTxt.text = lives.ToString();
@@ -31,7 +32,8 @@ namespace GameController
                 void Update()
                 {
                         if (lives <= 0)
-                        { 
+                        {
+                                Time.timeScale = 0;
                                 EndGame();
                         }
                 }
@@ -45,6 +47,7 @@ namespace GameController
                 public void VictoryGame()
                 {
                         // Victory = true;
+                        Time.timeScale = 0;
                         victoryUI.SetActive(true);
                 }
                  
