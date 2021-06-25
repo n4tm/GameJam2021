@@ -11,11 +11,6 @@ namespace Tower
 
         private void Update()
         {
-            if (target == null) 
-            {
-                GameManager.Instance.Pool.ReleaseObject(gameObject);
-                return;
-            }
             MoveToTarget();
         }
 
