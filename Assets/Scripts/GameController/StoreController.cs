@@ -16,5 +16,6 @@ namespace GameController
                 PanelStore.SetActive(false);
             }
         }
+        
     }
 }

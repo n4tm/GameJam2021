@@ -21,7 +21,6 @@ namespace GameController.ButtonControllers
         }
         public void PauseGame()
         {
-            
             pauseMenuObj.SetActive(!pauseMenuObj.activeSelf);
             Time.timeScale = 0;
         }
