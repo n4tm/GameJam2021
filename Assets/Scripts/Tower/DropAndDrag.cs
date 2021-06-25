@@ -1,4 +1,3 @@
-using GameController;
 using UnityEngine;
 
 namespace Tower
@@ -23,7 +22,7 @@ namespace Tower
     
         // Boleanos para marcar se o item pode ser movido e está sendo movido
         public bool IsDraggable = true;
-        private bool IsDragged;
+        [HideInInspector] public bool IsDragged { get; set; }
     
 
         private void Start()

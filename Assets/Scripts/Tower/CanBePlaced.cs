@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace Tower
@@ -10,7 +9,7 @@ namespace Tower
         private void OnTriggerStay2D(Collider2D other)
         {
             _spriteRenderer = GetComponentInParent<SpriteRenderer>();
-            if (other.CompareTag("Tower") || other.CompareTag("Road"))
+            if ((other.CompareTag("Tower") || other.CompareTag("Road")) && GetComponentInParent<DropAndDrag>().IsDragged)
             {
                 _spriteRenderer.color = Color.red;
                 canPlace = false;

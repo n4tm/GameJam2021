@@ -4,12 +4,12 @@
     <list default="true" id="c8f41ee9-8824-4a2d-8dd7-7939fc1165e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Store.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CanBePlaced.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/CanBePlaced.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/DropAndDrag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/DropAndDrag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sounds/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower/TowerUpgrade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/NextWave.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,7 +41,6 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower/CreateTower.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/DragDrop.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CircleRender.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Towers/CreatingTowers.cs" />
@@ -65,10 +65,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerUpgrade.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/CreatingTowers.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/CanBePlaced.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/DropAndDrag.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uHRC1hhUbXwq5sTkGwafMwHyjZ" />
@@ -126,7 +131,7 @@
       <workItem from="1624538294980" duration="707000" />
       <workItem from="1624541965858" duration="4586000" />
       <workItem from="1624555283176" duration="3336000" />
-      <workItem from="1624564836400" duration="4580000" />
+      <workItem from="1624564836400" duration="9981000" />
     </task>
     <servers />
   </component>

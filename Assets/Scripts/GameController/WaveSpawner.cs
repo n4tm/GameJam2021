@@ -23,7 +23,7 @@ namespace GameController
                 return;
             }
             
-            else if (countdown <= 0f)
+            if (countdown <= 0f)
             {
                 StartCoroutine(SpawnWave());
                 countdown = timeBetweenWaves;
@@ -54,6 +54,10 @@ namespace GameController
             GameObject obj = GameManager.Instance.Pool.GetObject(enemyType);
             enemiesAlive++;
         }
-        
+
+        public void ResetCountdown()
+        {
+            countdown = 0;
+        }
     }
 }
