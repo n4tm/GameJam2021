@@ -52,7 +52,7 @@ namespace Tower
 
         private void OnMouseUp()
         {
-            if (IsDragged && _canBePlaced.canPlace)
+            if (IsDragged && _canBePlaced.canPlace && GameManager.Instance.money >= TowerCost)
             {
                 finalPos = gameObject.transform.position;
                 

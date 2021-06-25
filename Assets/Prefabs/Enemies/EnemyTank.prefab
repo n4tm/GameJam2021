@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd3052b05c3b8074cab4595e8fcc122f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moneyDrop: 80
+  moneyDrop: 30
   maxLife: 200
   lifeBar: {fileID: 9183648549573440130}
   actualLife: 0
