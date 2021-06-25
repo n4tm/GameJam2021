@@ -46,7 +46,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 3
 --- !u!1 &8747685086597954731
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 8747685087236673802}
   - component: {fileID: 8747685087236673800}
   m_Layer: 0
-  m_Name: SimpleAttackTower
+  m_Name: 'SimpleSupportTower '
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

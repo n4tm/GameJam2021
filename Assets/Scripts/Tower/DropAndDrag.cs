@@ -8,7 +8,8 @@ namespace Tower
         public AttackArea _AttackArea;
         public CreatingTowers _cTowers;
         public CanBePlaced _canBePlaced;
-
+        // public GameManager _moneyBag;
+        
         // Mover o objeto Pai com o filho
         public GameObject dadTower;
     
@@ -17,7 +18,6 @@ namespace Tower
         public Vector3 finalPos;
     
         // Compra da torre
-        public int _money ; 
         [SerializeField] private int TowerCost;
     
         // Boleanos para marcar se o item pode ser movido e está sendo movido
@@ -53,13 +53,13 @@ namespace Tower
 
         private void OnMouseUp()
         {
-            if (IsDragged && _money >= TowerCost && _canBePlaced.canPlace)
+            if (IsDragged && _canBePlaced.canPlace)
             {
                 finalPos = gameObject.transform.position;
                 
                 _cTowers.NewTower(dadTower, finalPos);
                 dadTower.transform.position = initialPos;
-                _money -= TowerCost;
+                // _moneyBag.SpendMoney(TowerCost);
             }
             
             for (int i = 0; i < _cTowers.count; i++)

@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1592982289}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1529356217}
     - target: {fileID: 8747685086597954902, guid: 74e3f3848a2a80848b065352d0c000d9, type: 3}
       propertyPath: TowerCost
       value: 150
@@ -7443,7 +7447,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuObj: {fileID: 1551406048}
-  gameCanvasTransparency: {fileID: 1512734233}
 --- !u!114 &1402464951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8430,6 +8433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 274972306}
   victoryUI: {fileID: 1487646312}
+  money: 0
   moneyTxt: {fileID: 862586246}
   livesTxt: {fileID: 765915160}
 --- !u!4 &1589419600

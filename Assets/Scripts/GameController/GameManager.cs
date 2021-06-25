@@ -8,7 +8,7 @@ public class GameManager : Singleton<GameManager>
         public ObjectPool Pool { get; set; }
         public GameObject gameOverUI;
         public GameObject victoryUI;
-        private int money;
+        public int money;
         private int lives;
         public static int Rounds = 0;
         private bool GameIsOver = false;
@@ -51,9 +51,14 @@ public class GameManager : Singleton<GameManager>
         public void EarnMoney(int moneyAmount)
         {
                 money += moneyAmount;
-                moneyTxt.text = money.ToString() + " <color=green>$</color>";
+                moneyTxt.text = money.ToString();
         }
 
+        public void SpendMoney(int moneyAmount)
+        {
+                money -= moneyAmount;
+                moneyTxt.text = money.ToString();
+        }
         public void LoseLives(int damageAmount)
         {
                 lives -= damageAmount;

@@ -7,10 +7,15 @@ namespace Tower
     {
         private TowerAttack towerAttack;
         private GameObject target;
-        
+
 
         private void Update()
         {
+            if (!target.activeInHierarchy)
+            {
+                GameManager.Instance.Pool.ReleaseObject(gameObject);
+                return;
+            }
             MoveToTarget();
         }
 

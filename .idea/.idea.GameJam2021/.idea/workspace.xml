@@ -2,74 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8f41ee9-8824-4a2d-8dd7-7939fc1165e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/5a364b6d2c5557.7578312615135076931816.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/5a364b6d2c5557.7578312615135076931816.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/image (2) (1) (2) (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/image (2) (1) (2) (2).png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tile Palette.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tile Palette.meta~Updated upstream.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyBandit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyBandit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MultiAttackTower .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Towers/MultiAttackTower .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MultiAttackTower .prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Towers/MultiAttackTower .prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SimpleAttackTower.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SimpleAttackTower.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SimpleSupportTower .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Towers/SimpleSupportTower .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SimpleSupportTower .prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Towers/SimpleSupportTower .prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Towers/SimpleAttackTower.prefab.meta~Stashed changes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Towers/SimpleAttackTower.prefab.meta~Stashed changes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Towers/SimpleAttackTower.prefab.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Towers/SimpleAttackTower.prefab.meta~Updated upstream.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json.meta~Stashed changes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json.meta~Stashed changes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json.meta~Stashed changes_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json.meta~Stashed changes_0.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json.meta~Updated upstream.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json.meta~Updated upstream_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json.meta~Updated upstream_0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Towers/SimpleAttackTower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Towers/SimpleAttackTower.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity.meta~Stashed changes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity.meta~Stashed changes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity.meta~Stashed changes_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity.meta~Stashed changes_0.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity.meta~Updated upstream.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity.meta~Updated upstream_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity.meta~Updated upstream_0.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs.meta~Updated upstream.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs.meta~Updated upstream.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs.meta~Updated upstream.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameOver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Singleton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Singleton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds/AudioManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds/AudioManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/AttackArea.cs.meta~Stashed changes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/AttackArea.cs.meta~Stashed changes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/AttackArea.cs.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/AttackArea.cs.meta~Updated upstream.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CanBePlaced.cs.meta~Stashed changes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CanBePlaced.cs.meta~Stashed changes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CanBePlaced.cs.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CanBePlaced.cs.meta~Updated upstream.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CreatingTowers.cs.meta~Stashed changes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CreatingTowers.cs.meta~Stashed changes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CreatingTowers.cs.meta~Updated upstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/CreatingTowers.cs.meta~Updated upstream.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/DropAndDrag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/DropAndDrag.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPoints.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPoints.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +54,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" />
@@ -134,10 +71,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/StoreController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower/CreatingTowers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower/CanBePlaced.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/DropAndDrag.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/DropAndDrag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uHRC1hhUbXwq5sTkGwafMwHyjZ" />
@@ -198,7 +136,7 @@
       <workItem from="1624564836400" duration="9981000" />
       <workItem from="1624564836400" duration="4580000" />
       <workItem from="1624566690607" duration="8747000" />
-      <workItem from="1624623086553" duration="2351000" />
+      <workItem from="1624623086553" duration="4210000" />
     </task>
     <servers />
   </component>

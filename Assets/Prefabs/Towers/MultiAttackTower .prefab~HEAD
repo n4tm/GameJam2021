@@ -122,9 +122,10 @@ MonoBehaviour:
   _AttackArea: {fileID: 8747685086785638782}
   _cTowers: {fileID: 8747685087236673800}
   _canBePlaced: {fileID: 8747685086597954729}
+  _moneyBag: {fileID: 0}
   dadTower: {fileID: 8747685087236673805}
   finalPos: {x: 0, y: 0, z: 0}
-  TowerCost: 150
+  TowerCost: 200
   IsDraggable: 1
 --- !u!114 &8747685086597954729
 MonoBehaviour:
@@ -269,7 +270,7 @@ GameObject:
   - component: {fileID: 8747685087236673802}
   - component: {fileID: 8747685087236673800}
   m_Layer: 0
-  m_Name: SimpleAttackTower
+  m_Name: 'MultiAttackTower '
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
