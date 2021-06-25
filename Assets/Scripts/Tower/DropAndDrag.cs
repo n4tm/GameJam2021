@@ -1,3 +1,4 @@
+using GameController;
 using UnityEngine;
 
 namespace Tower
@@ -8,8 +9,7 @@ namespace Tower
         public AttackArea _AttackArea;
         public CreatingTowers _cTowers;
         public CanBePlaced _canBePlaced;
-        // public GameManager _moneyBag;
-        
+
         // Mover o objeto Pai com o filho
         public GameObject dadTower;
     
@@ -22,8 +22,7 @@ namespace Tower
     
         // Boleanos para marcar se o item pode ser movido e está sendo movido
         public bool IsDraggable = true;
-        [HideInInspector] public bool IsDragged { get; set; }
-    
+        public bool IsDragged { get; set; }
 
         private void Start()
         {
@@ -59,7 +58,7 @@ namespace Tower
                 
                 _cTowers.NewTower(dadTower, finalPos);
                 dadTower.transform.position = initialPos;
-                // _moneyBag.SpendMoney(TowerCost);
+                GameManager.Instance.SpendMoney(TowerCost);
             }
             
             for (int i = 0; i < _cTowers.count; i++)

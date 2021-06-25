@@ -3318,7 +3318,7 @@ GameObject:
   - component: {fileID: 714439197}
   - component: {fileID: 714439196}
   m_Layer: 5
-  m_Name: Text (TMP) (2)
+  m_Name: T3Cost (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5724,7 +5724,7 @@ GameObject:
   - component: {fileID: 1115334335}
   - component: {fileID: 1115334334}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: T2Cost (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9930,7 +9930,7 @@ GameObject:
   - component: {fileID: 1815550981}
   - component: {fileID: 1815550980}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: T1Cost (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

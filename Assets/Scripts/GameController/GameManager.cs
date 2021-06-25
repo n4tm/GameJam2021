@@ -10,7 +10,7 @@ namespace GameController
                 public GameObject victoryUI;
                 public int money;
                 private int lives;
-                public static int Rounds = 0;
+                public static int Rounds;
                 /*private bool GameIsOver = false;
         private bool Victory = false;*/
                 [SerializeField] private TextMeshProUGUI moneyTxt;
@@ -57,7 +57,7 @@ namespace GameController
                 public void SpendMoney(int moneyAmount)
                 {
                         money -= moneyAmount;
-                        moneyTxt.text = money.ToString();
+                        moneyTxt.text = money + " <color=green>$</color>";
                 }
                 public void LoseLives(int damageAmount)
                 {
