@@ -15,14 +15,16 @@ namespace GameController.ButtonControllers
         }
         public void ResumeGame()
         {
-            Time.timeScale = 1;
+            pauseMenuObj.GetComponentInParent<RawImage>().enabled = !pauseMenuObj.GetComponentInParent<RawImage>().enabled;
+            Time.timeScale = Time.timeScale == 0? 1: 0;;
             pauseMenuObj.SetActive(false);
             
         }
         public void PauseGame()
         {
+            pauseMenuObj.GetComponentInParent<RawImage>().enabled = !pauseMenuObj.GetComponentInParent<RawImage>().enabled;
             pauseMenuObj.SetActive(!pauseMenuObj.activeSelf);
-            Time.timeScale = 0;
+            Time.timeScale = Time.timeScale == 0? 1: 0;
         }
         public void BackToInitialScreen()
         {

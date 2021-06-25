@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8747685086562716262}
   - component: {fileID: 8747685086562716263}
+  - component: {fileID: 6981301053757507853}
   m_Layer: 0
   m_Name: TowerFunction
   m_TagString: Attack
@@ -47,6 +48,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3
+--- !u!114 &6981301053757507853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8747685086562716281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06d6cd1c61bfde49a97f97ae6f7d392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileType: Projectile
+  projectileSpeed: 4
+  audioManager: {fileID: 0}
+  target: {fileID: 0}
+  attackCooldown: 2.5
+  damage: 70
 --- !u!1 &8747685086597954731
 GameObject:
   m_ObjectHideFlags: 0

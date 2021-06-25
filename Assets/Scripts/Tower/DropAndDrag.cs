@@ -55,7 +55,6 @@ namespace Tower
             if (IsDragged && _canBePlaced.canPlace && GameManager.Instance.money >= TowerCost)
             {
                 finalPos = gameObject.transform.position;
-                
                 _cTowers.NewTower(dadTower, finalPos);
                 dadTower.transform.position = initialPos;
                 GameManager.Instance.SpendMoney(TowerCost);
