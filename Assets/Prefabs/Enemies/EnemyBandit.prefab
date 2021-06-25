@@ -27,7 +27,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 9183648549573440130}
+  - {fileID: 5704410891196027997}
   - {fileID: 9183648549455860552}
   m_Father: {fileID: 9183648548321001261}
   m_RootOrder: 0
@@ -133,6 +133,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  wayPointIndex: 0
+  damageAmount: 0
 --- !u!114 &9183648548321001260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,8 +147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd3052b05c3b8074cab4595e8fcc122f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moneyDrop: 20
   maxLife: 50
-  lifeBar: {fileID: 9183648549573440130}
+  lifeBar: {fileID: 5704410891196027997}
+  actualLife: 0
 --- !u!114 &6080643882576611537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,7 +301,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9183648549573440130}
+  - component: {fileID: 5704410891196027997}
   - component: {fileID: 9183648549573440133}
   m_Layer: 0
   m_Name: Green
@@ -306,20 +310,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9183648549573440130
-Transform:
+--- !u!224 &5704410891196027997
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9183648549573440131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.34, y: 2.07, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 13.363086, y: 1.9, z: 5.8883395}
   m_Children: []
   m_Father: {fileID: 9183648548307750443}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2.34, y: 2.07}
+  m_SizeDelta: {x: 0.32, y: 0.32}
+  m_Pivot: {x: -0, y: -0}
 --- !u!212 &9183648549573440133
 SpriteRenderer:
   m_ObjectHideFlags: 0

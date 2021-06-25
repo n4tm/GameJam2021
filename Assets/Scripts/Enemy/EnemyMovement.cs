@@ -8,7 +8,7 @@ namespace Enemy
     {
         public float speed;
         private WayPoints wPoints;
-        private int wayPointIndex;
+        public int wayPointIndex;
         [SerializeField] private int damageAmount;
 
         private void Start()

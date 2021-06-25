@@ -11,11 +11,14 @@ public class ObjectPool : MonoBehaviour
         {
             if (go.name == type && !go.activeInHierarchy)
             {
-                if (!(go.CompareTag("Enemy") && go.GetComponent<LifeBar>().actualLife <= 0))
+                
+                go.SetActive(true);
+                return go;
+                
+                /*if (!(go.CompareTag("Enemy") && go.GetComponent<LifeBar>().actualLife <= 0))
                 {
-                    go.SetActive(true);
-                    return go;
-                }
+                
+                }*/
             }
         }
         for (int i = 0; i < objectPrefabs.Length; i++)
