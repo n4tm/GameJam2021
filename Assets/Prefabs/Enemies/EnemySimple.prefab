@@ -132,9 +132,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182903fc427108b458a4c8dd58591aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  damageAmount: 10
-  livesTxt: {fileID: 0}
+  speed: 1
+  wayPointIndex: 0
+  damageAmount: 5
 --- !u!114 &9183648548321001260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,9 +147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd3052b05c3b8074cab4595e8fcc122f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moneyDrop: 60
   maxLife: 100
   lifeBar: {fileID: 9183648549573440130}
-  moneyDrop: 10
+  actualLife: 0
 --- !u!114 &6080643882576611537
 MonoBehaviour:
   m_ObjectHideFlags: 0

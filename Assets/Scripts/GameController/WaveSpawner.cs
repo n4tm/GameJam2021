@@ -5,7 +5,7 @@ namespace GameController
 {
     public class WaveSpawner : MonoBehaviour
     {
-        public static int enemiesAlive = 0;
+        public static int enemiesAlive;
         public Wave[] Waves;
         public Transform spawnPoint;
     
@@ -14,7 +14,7 @@ namespace GameController
 
         public Text waveCountdownText;
 
-        private int waveIndex = 0;
+        private int waveIndex;
         void Update()
         {
             if (enemiesAlive > 0)
@@ -57,12 +57,8 @@ namespace GameController
         public void SpawnEnemy(string enemyType)
         {
             GameObject obj = GameManager.Instance.Pool.GetObject(enemyType);
+            obj.transform.position = spawnPoint.position;
             enemiesAlive++;
-        }
-
-        public void ResetCountdown()
-        {
-            countdown = 0;
         }
     }
 }

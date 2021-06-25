@@ -1,3 +1,4 @@
+using GameController;
 using UnityEngine;
 
 namespace Enemy
