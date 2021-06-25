@@ -8,7 +8,7 @@ namespace Tower
     {
         [SerializeField] private string projectileType;
         public float projectileSpeed;
-        [SerializeField] private AudioManager audioManager;
+        //[SerializeField] private AudioManager audioManager;
         [HideInInspector] public GameObject target;
         private Queue<GameObject> targets = new Queue<GameObject>();
         private bool canAttack = true;
@@ -46,7 +46,7 @@ namespace Tower
             projectile.Initialize(this);
             projectile.transform.position = transform.position;
 
-            audioManager.Play("MageTowerProjectile");
+            //audioManager.Play("MageTowerProjectile");
         }
 
         private void OnTriggerEnter2D(Collider2D other)

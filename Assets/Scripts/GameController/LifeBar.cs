@@ -27,7 +27,7 @@ public class LifeBar : MonoBehaviour
         if (actualLife <= 0)
         {
             GameManager.Instance.Pool.ReleaseObject(gameObject);
-            FindObjectOfType<AudioManager>().Play("EnemyDead");
+            //FindObjectOfType<AudioManager>().Play("EnemyDead");
             WaveSpawner.enemiesAlive--;
             GameManager.Instance.EarnMoney(moneyDrop);
         }
