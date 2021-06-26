@@ -1,18 +1,19 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 namespace GameController
 {
     public class WaveSpawner : MonoBehaviour
     {
+        public TextMeshProUGUI IndexTxt;
+        
         public static int enemiesAlive;
         public Wave[] Waves;
         public Transform spawnPoint;
     
         public float timeBetweenWaves = 5f;
         private float countdown = 2f;
-
-        public Text waveCountdownText;
 
         private int waveIndex;
         void Update()
@@ -33,8 +34,6 @@ namespace GameController
             countdown -= Time.deltaTime;
 
             countdown = Mathf.Clamp(countdown, 0f, Mathf.Infinity);
-        
-            waveCountdownText.text = Mathf.Floor(countdown).ToString();
         }
     
         IEnumerator SpawnWave()
@@ -46,7 +45,7 @@ namespace GameController
                 yield return new WaitForSeconds(1f / wave.rate);
             }
             waveIndex++;
-
+            IndexTxt.text = "Wave: " + waveIndex.ToString();
             if (waveIndex == Waves.Length)
             {
                 GameManager.Instance.VictoryGame();

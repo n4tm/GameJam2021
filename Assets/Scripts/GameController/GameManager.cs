@@ -19,10 +19,10 @@ namespace GameController
                 private void Start()
                 {
                         Time.timeScale = 1;
-                        lives = 1;
-                        money = 500;
+                        lives = 100;
+                        money = 300;
                         livesTxt.text = lives.ToString();
-                        moneyTxt.text = money + " <color=green>$</color>";
+                        moneyTxt.text = money.ToString();
                         Pool = gameObject.GetComponent<ObjectPool>();
                         /*GameIsOver = false;
                 Victory = false;*/
@@ -54,13 +54,13 @@ namespace GameController
                 public void EarnMoney(int moneyAmount)
                 {
                         money += moneyAmount;
-                        moneyTxt.text = money + " <color=green>$</color>";
+                        moneyTxt.text = money.ToString();
                 }
 
                 public void SpendMoney(int moneyAmount)
                 {
                         money -= moneyAmount;
-                        moneyTxt.text = money + " <color=green>$</color>";
+                        moneyTxt.text = money.ToString();
                 }
                 public void LoseLives(int damageAmount)
                 {
