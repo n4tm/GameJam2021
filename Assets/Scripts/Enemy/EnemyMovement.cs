@@ -1,5 +1,4 @@
 using GameController;
-using TMPro;
 using UnityEngine;
 
 namespace Enemy
