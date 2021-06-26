@@ -9,5 +9,6 @@ public class CreateMagic : MonoBehaviour
     public void cast(GameObject magictype, Vector3 castPoint)
     {
         NewSpell = Instantiate(magictype, castPoint, quaternion.identity);
+        NewSpell.transform.localScale = Vector3.one * 2;
     }
 }
