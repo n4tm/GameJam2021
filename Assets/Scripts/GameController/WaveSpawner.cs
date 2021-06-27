@@ -1,6 +1,8 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
 namespace GameController
 {
     public class WaveSpawner : MonoBehaviour
@@ -15,6 +17,12 @@ namespace GameController
         private float countdown = 2f;
 
         private int waveIndex;
+
+        private void Awake()
+        {
+            enemiesAlive = 0;
+        }
+
         void Update()
         {
             if (enemiesAlive > 0)

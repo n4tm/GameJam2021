@@ -1,41 +1,39 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectPool : MonoBehaviour
+namespace GameController
 {
-    [SerializeField] private GameObject[] objectPrefabs;
-    private List<GameObject> pooledObjects = new List<GameObject>();
-    public GameObject GetObject(string type)
+    public class ObjectPool : MonoBehaviour
     {
-        foreach (GameObject go in pooledObjects)
+        [SerializeField] private GameObject[] objectPrefabs;
+        private List<GameObject> pooledObjects = new List<GameObject>();
+        public GameObject GetObject(string type)
         {
-            if (go.name == type && !go.activeInHierarchy)
+            foreach (GameObject go in pooledObjects)
             {
-                go.SetActive(true);
-                return go;
-                
-                /*if (!(go.CompareTag("Enemy") && go.GetComponent<LifeBar>().actualLife <= 0))
+                if (go.name == type && !go.activeInHierarchy)
                 {
-                
-                }*/
+                    go.SetActive(true);
+                    return go;
+                }
             }
-        }
-        for (int i = 0; i < objectPrefabs.Length; i++)
-        {
-            if (objectPrefabs[i].name == type)
+            for (int i = 0; i < objectPrefabs.Length; i++)
             {
-                GameObject newObject = Instantiate(objectPrefabs[i]);
-                pooledObjects.Add(newObject);
-                newObject.name = type;
-                return newObject;
+                if (objectPrefabs[i].name == type)
+                {
+                    GameObject newObject = Instantiate(objectPrefabs[i]);
+                    pooledObjects.Add(newObject);
+                    newObject.name = type;
+                    return newObject;
+                }
             }
+
+            return null;
         }
 
-        return null;
-    }
-
-    public void ReleaseObject(GameObject go)
-    {
-        go.SetActive(false);
+        public void ReleaseObject(GameObject go)
+        {
+            go.SetActive(false);
+        }
     }
 }

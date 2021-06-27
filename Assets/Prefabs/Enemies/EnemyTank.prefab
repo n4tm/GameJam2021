@@ -28,11 +28,11 @@ Transform:
   m_LocalScale: {x: 1.0000167, y: 1.0000167, z: 1.0000167}
   m_Children:
   - {fileID: 1538848278076847941}
-  - {fileID: 5581828129181189488}
+  - {fileID: 1612079211976675930}
   m_Father: {fileID: 9183648548321001261}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3378635262389833624
+--- !u!1 &5529282587836207873
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,8 +40,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5581828129181189488}
-  - component: {fileID: 2405221990391692563}
+  - component: {fileID: 1612079211976675930}
+  - component: {fileID: 1740672407645120138}
   m_Layer: 0
   m_Name: Green
   m_TagString: Untagged
@@ -49,27 +49,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5581828129181189488
+--- !u!4 &1612079211976675930
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3378635262389833624}
+  m_GameObject: {fileID: 5529282587836207873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2, y: 2.5, z: 0}
+  m_LocalPosition: {x: -2.153, y: 2.5, z: 0}
   m_LocalScale: {x: 2.5, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 756234092117090804}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2405221990391692563
+--- !u!212 &1740672407645120138
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3378635262389833624}
+  m_GameObject: {fileID: 5529282587836207873}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -103,7 +103,7 @@ SpriteRenderer:
   m_SortingLayerID: -622900435
   m_SortingLayer: 1
   m_SortingOrder: 4
-  m_Sprite: {fileID: -8064986394201839719, guid: 565bbe6e70b9a114dbae45a9a18c4273, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ffaa4642acaafe9419f393a7ee06c85d, type: 3}
   m_Color: {r: 0.06666667, g: 0.7647059, b: 0.078431375, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moneyDrop: 30
   maxLife: 200
-  lifeBar: {fileID: 5581828129181189488}
+  lifeBar: {fileID: 1612079211976675930}
   actualLife: 0
 --- !u!114 &6080643882576611537
 MonoBehaviour:

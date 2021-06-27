@@ -30,6 +30,7 @@ namespace Enemy
                     WaveSpawner.enemiesAlive--;
                     GameManager.Instance.Pool.ReleaseObject(gameObject);
                     GameManager.Instance.LoseLives(damageAmount);
+                    GetComponent<LifeBar>().ResetEnemy();
                 }
             }
         }

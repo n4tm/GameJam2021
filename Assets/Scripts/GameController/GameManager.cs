@@ -11,8 +11,6 @@ namespace GameController
                 public int money;
                 private int lives;
                 public static int Rounds;
-                /*private bool GameIsOver = false;
-        private bool Victory = false;*/
                 [SerializeField] private TextMeshProUGUI moneyTxt;
                 [SerializeField] private TextMeshProUGUI livesTxt;
 
@@ -24,8 +22,6 @@ namespace GameController
                         livesTxt.text = lives.ToString();
                         moneyTxt.text = money.ToString();
                         Pool = gameObject.GetComponent<ObjectPool>();
-                        /*GameIsOver = false;
-                Victory = false;*/
                         Rounds = 0;
                 }
 
@@ -40,13 +36,11 @@ namespace GameController
 
                 void EndGame()
                 {
-                        // GameIsOver = true;
                         gameOverUI.SetActive(true);
                 }
 
                 public void VictoryGame()
                 {
-                        // Victory = true;
                         Time.timeScale = 0;
                         victoryUI.SetActive(true);
                 }

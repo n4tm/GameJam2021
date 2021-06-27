@@ -39,7 +39,7 @@ namespace GameController
             }
         }
 
-        private void ResetEnemy()
+        public void ResetEnemy()
         {
             gameObject.transform.position = _waveSpawner.spawnPoint.transform.position;
             _enemyMovement.wayPointIndex = 0;
