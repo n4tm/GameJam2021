@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyDrop: 10
-  maxLife: 100
+  maxLife: 200
   lifeBar: {fileID: 9183648549573440130}
   actualLife: 0
 --- !u!114 &6080643882576611537

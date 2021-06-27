@@ -40,22 +40,22 @@ public class DnDMagic : MonoBehaviour
         }
     }
 
-    private void OnMouseOver()
+    private void OnMouseDown()
     {
-        if (MagicCharged && Input.GetMouseButtonDown(0))
+        if (MagicCharged)
         {
             Dragged = true;
             Magic.gameObject.SetActive(true);
-            Debug.Log("Ok pra pegar a posição");
         }
     }
 
     private void OnMouseUp()
     {
         Dragged = false;
+        MagicCharged = false;
         CastPoint = Magic.transform.position;
         
-        cast.cast(Magic, CastPoint);
+        cast.cast(DnDMagic.Instantiate(Magic), CastPoint);
         
         Magic.transform.position = initialPos;
         Magic.gameObject.SetActive(false);
