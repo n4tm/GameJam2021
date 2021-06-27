@@ -1,3 +1,4 @@
+using System.Collections;
 using GameController;
 using UnityEngine;
 
@@ -8,6 +9,8 @@ namespace Enemy
         public float speed;
         private WayPoints wPoints;
         public int wayPointIndex;
+        public bool stunned;
+        [HideInInspector] public float enemyStunTime;
         [SerializeField] private int damageAmount;
 
         private void Start()
@@ -17,8 +20,10 @@ namespace Enemy
 
         private void Update()
         {
-            transform.position = Vector2.MoveTowards(transform.position, wPoints.waypoints[wayPointIndex].position,speed * Time.deltaTime);
-
+            if (!stunned)
+                transform.position = Vector2.MoveTowards(transform.position, wPoints.waypoints[wayPointIndex].position,
+                    speed * Time.deltaTime);
+            else StartCoroutine(Stun());
             if (Vector2.Distance(transform.position,wPoints.waypoints[wayPointIndex].position) < 0.1f)
             {
                 if (wayPointIndex < wPoints.waypoints.Length - 1)
@@ -34,6 +39,11 @@ namespace Enemy
                 }
             }
         }
-    
+
+        IEnumerator Stun()
+        {
+            yield return new WaitForSeconds(enemyStunTime);
+            stunned = false;
+        }
     }
 }

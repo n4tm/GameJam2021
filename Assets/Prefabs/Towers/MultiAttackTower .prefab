@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8747685086562716263}
   m_Layer: 0
   m_Name: TowerFunction
-  m_TagString: Attack
+  m_TagString: T2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,7 +230,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -622900435
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 0.11502457, g: 0, b: 1, a: 0.34901962}
@@ -329,9 +329,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -622900435
-  m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingLayerID: 288440223
+  m_SortingLayer: 4
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5e28a808b19eaad4e87aeafe108a98f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -20,7 +20,7 @@ namespace Tower
         // Compra da torre
         [SerializeField] private int TowerCost;
     
-        // Boleanos para marcar se o item pode ser movido e está sendo movido
+        // Boleanos  para marcar se o item pode ser movido e está sendo movido
         public bool IsDraggable = true;
         public bool IsDragged { get; set; }
 
