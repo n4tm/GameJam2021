@@ -11,7 +11,6 @@ public class ObjectPool : MonoBehaviour
         {
             if (go.name == type && !go.activeInHierarchy)
             {
-                
                 go.SetActive(true);
                 return go;
                 

@@ -10,7 +10,7 @@ namespace Tower
         [SerializeField] private string projectileType;
         public float projectileSpeed;
         [SerializeField] private AudioManager audioManager;
-        [HideInInspector] public GameObject target;
+        public GameObject target;
         private Queue<GameObject> targets = new Queue<GameObject>();
         private bool canAttack = true;
         private float attackTimer;
@@ -64,7 +64,7 @@ namespace Tower
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.CompareTag("Enemy"))
+            if (other.CompareTag("Enemy") && other.gameObject.activeInHierarchy)
             {
                 targets.Enqueue(other.gameObject);
             }

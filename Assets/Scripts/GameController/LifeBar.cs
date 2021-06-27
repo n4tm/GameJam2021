@@ -47,6 +47,7 @@ namespace GameController
             lifeBarScale.x = 2.5f;
             LifePercent = lifeBarScale.x / maxLife;
             UpdateLifeBar();
+            gameObject.GetComponent<EnemyMovement>().wayPointIndex = 0;
         }
     }
 }
