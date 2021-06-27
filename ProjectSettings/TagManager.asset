@@ -52,6 +52,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor
+    uniqueID: 951231089
+    locked: 0
+  - name: Path
+    uniqueID: 577878837
+    locked: 0
   - name: UI
     uniqueID: 3672066861
+    locked: 0
+  - name: Enemy
+    uniqueID: 2098367907
+    locked: 0
+  - name: Tower
+    uniqueID: 288440223
     locked: 0

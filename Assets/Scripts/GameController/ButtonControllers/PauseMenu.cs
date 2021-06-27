@@ -28,7 +28,6 @@ namespace GameController.ButtonControllers
             Time.timeScale = Time.timeScale == 0? 1: 0;
             if (_camera.GetComponent<AudioSource>().isPlaying) _camera.GetComponent<AudioSource>().Pause();
             else _camera.GetComponent<AudioSource>().UnPause();
-
         }
         public void BackToInitialScreen()
         {

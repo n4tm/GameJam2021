@@ -16,7 +16,6 @@ namespace Tower
         private float attackTimer;
         [SerializeField] private float attackCooldown;
         public int damage;
-        
 
         private void FixedUpdate()
         {
@@ -58,7 +57,11 @@ namespace Tower
             Projectile projectile = GameManager.Instance.Pool.GetObject(projectileType).GetComponent<Projectile>();
             projectile.Initialize(this);
             projectile.transform.position = transform.position;
-
+            if (gameObject.CompareTag("T3"))
+            {
+                projectile.stunTime = 0.5f;
+                projectile.stun = true;
+            }
             audioManager.Play("MageTowerProjectile");
         }
 

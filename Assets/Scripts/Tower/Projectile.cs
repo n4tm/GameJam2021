@@ -8,7 +8,8 @@ namespace Tower
     {
         private TowerAttack towerAttack;
         private GameObject target;
-
+        [HideInInspector] public bool stun;
+        [HideInInspector] public float stunTime;
 
         private void Update()
         {
@@ -44,6 +45,12 @@ namespace Tower
             {
                 other.GetComponent<EnemyLife>().TakeDamage(towerAttack.damage);
                 GameManager.Instance.Pool.ReleaseObject(gameObject);
+                if (stun)
+                {
+                    other.GetComponent<EnemyMovement>().stunned = true;
+                    other.GetComponent<EnemyMovement>().enemyStunTime = stunTime;
+                    stun = false;
+                }
             }
         }
     }

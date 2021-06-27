@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 76b28447a6e666f409e5e7f5689579b7
+guid: cf9d83e4a6961784c95cf1cd2fc81190
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7559662027037993648
-    second: Rua_e_tal_0
+      213: 1410773654253517996
+    second: linha-sprite_w_color_1
   - first:
-      213: -8883060588773279361
-    second: Rua_e_tal_1
+      213: 3204144942611218943
+    second: linha-sprite_w_color_2
   - first:
-      213: 3089030124578604914
-    second: Rua_e_tal_2
+      213: -4872035574286448918
+    second: linha-sprite_w_color_3
   - first:
-      213: 2939768201894431460
-    second: Rua_e_tal_3
+      213: -6675524735697345473
+    second: linha-sprite_w_color_4
   - first:
-      213: -815696183338661082
-    second: Rua_e_tal_4
+      213: 4406677668483445124
+    second: linha-sprite_w_color_6
   - first:
-      213: 8795383317238303920
-    second: Rua_e_tal_5
+      213: -5031837821183235482
+    second: linha-sprite_w_color_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -55,13 +55,13 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 64
@@ -121,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rua_e_tal_0
+      name: linha-sprite_w_color_1
       rect:
         serializedVersion: 2
         x: 88
@@ -129,20 +129,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0551460707fa61790800000000000000
-      internalID: -7559662027037993648
+      spriteID: cacb248f923149310800000000000000
+      internalID: 1410773654253517996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rua_e_tal_1
+      name: linha-sprite_w_color_2
       rect:
         serializedVersion: 2
         x: 168
@@ -150,62 +150,62 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7975ef757709b480800000000000000
-      internalID: -8883060588773279361
+      spriteID: ff1c43959d8677c20800000000000000
+      internalID: 3204144942611218943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rua_e_tal_2
+      name: linha-sprite_w_color_3
       rect:
         serializedVersion: 2
-        x: 247
+        x: 248
         y: 205
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2770dfb28807eda20800000000000000
-      internalID: 3089030124578604914
+      spriteID: ae60795557d036cb0800000000000000
+      internalID: -4872035574286448918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rua_e_tal_3
+      name: linha-sprite_w_color_4
       rect:
         serializedVersion: 2
         x: 88
-        y: 133
+        y: 132
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.3658718, y: 0.5562475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ea08e3aa972cc820800000000000000
-      internalID: 2939768201894431460
+      spriteID: f342d6f0f95cb53a0800000000000000
+      internalID: -6675524735697345473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rua_e_tal_4
+      name: linha-sprite_w_color_6
       rect:
         serializedVersion: 2
         x: 168
@@ -213,20 +213,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62b057b94a01ea4f0800000000000000
-      internalID: -815696183338661082
+      spriteID: 4813a9dedf9a72d30800000000000000
+      internalID: 4406677668483445124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rua_e_tal_5
+      name: linha-sprite_w_color_7
       rect:
         serializedVersion: 2
         x: 247
@@ -234,14 +234,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bcc26fe68a7f0a70800000000000000
-      internalID: 8795383317238303920
+      spriteID: 66a6ff459225b2ab0800000000000000
+      internalID: -5031837821183235482
       vertices: []
       indices: 
       edges: []
@@ -249,15 +249,13 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 33d3ec09ecf73fe4db3554d556ebf41b
+    spriteID: 88206e737fb477448a8a8e81fc383083
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: cbf7623719f5341448d357737581eddf, type: 3}
-      name: tex
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
