@@ -22,7 +22,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -102
+        value: 659
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -30,26 +30,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.1875
-        value: -62
-        inSlope: 266.66666
-        outSlope: 266.66666
+        time: 0.21666667
+        value: 754
+        inSlope: 597.2727
+        outSlope: 597.2727
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.375
-        value: -2
-        inSlope: 512
-        outSlope: 512
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5625
-        value: 130
+        time: 0.36666667
+        value: 878
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -60,11 +51,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.x
-    path: Hud-store/Store-back
+    path: Store-back
     classID: 224
     script: {fileID: 0}
   m_PPtrCurves: []
-  m_SampleRate: 80
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -72,7 +63,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1317327574
+      path: 1127800710
       attribute: 1460864421
       script: {fileID: 0}
       typeID: 224
@@ -84,7 +75,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5625
+    m_StopTime: 0.36666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -105,7 +96,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -102
+        value: 659
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -113,26 +104,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.1875
-        value: -62
-        inSlope: 266.66666
-        outSlope: 266.66666
+        time: 0.21666667
+        value: 754
+        inSlope: 597.2727
+        outSlope: 597.2727
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.375
-        value: -2
-        inSlope: 512
-        outSlope: 512
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5625
-        value: 130
+        time: 0.36666667
+        value: 878
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -143,7 +125,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.x
-    path: Hud-store/Store-back
+    path: Store-back
     classID: 224
     script: {fileID: 0}
   m_EulerEditorCurves: []
