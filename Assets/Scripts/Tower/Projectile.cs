@@ -6,6 +6,7 @@ namespace Tower
 {
     public class Projectile : MonoBehaviour
     {
+        private CreateMagic gameMagic;
         private TowerAttack towerAttack;
         private GameObject target;
         [HideInInspector] public bool stun;

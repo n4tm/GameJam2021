@@ -5,38 +5,19 @@ using UnityEngine;
 
 public class DnDMagic : MonoBehaviour
 {
-    private CreateMagic cast;
-    public GameObject Magic;
-    
-    private Vector3 initialPos;
-    public Vector3 CastPoint;
-
     public float MagicDelay;
     private float MagicCooldown;
     public bool MagicCharged = true;
-    public bool Dragged;
-
-
-    private void Start()
-    {
-        initialPos = Magic.transform.position;
-    }
-
+    
     private void Update()
     {
-        
         if (!MagicCharged)
         {
-            MagicDelay += Time.deltaTime;
-            if (MagicDelay >= MagicCooldown)
+            MagicCooldown += Time.deltaTime;
+            if (MagicCooldown >= MagicDelay)
             {
                 MagicCharged = true;
             } 
-        }
-
-        if (MagicCharged && Dragged)
-        {
-            Magic.transform.position = (Vector2) Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
     }
 
@@ -44,20 +25,19 @@ public class DnDMagic : MonoBehaviour
     {
         if (MagicCharged)
         {
-            Dragged = true;
-            Magic.gameObject.SetActive(true);
-        }
-    }
+            if (Input.mousePosition.x < 530)
+            {
+                //BetterTowers();
+                Debug.Log("Magia de dano");
+                MagicCharged = false;
+            }
 
-    private void OnMouseUp()
-    {
-        Dragged = false;
-        MagicCharged = false;
-        CastPoint = Magic.transform.position;
-        
-        cast.cast(DnDMagic.Instantiate(Magic), CastPoint);
-        
-        Magic.transform.position = initialPos;
-        Magic.gameObject.SetActive(false);
+            if (Input.mousePosition.x > 530)
+            {
+                //BetterTowers();
+                Debug.Log("Magia de buff");
+                MagicCharged = false;
+            }
+        }
     }
 }

@@ -7,6 +7,8 @@ namespace Tower
 {
     public class TowerAttack : MonoBehaviour
     {
+        private CreateMagic gameMagic;
+        
         [SerializeField] private string projectileType;
         public float projectileSpeed;
         [SerializeField] private AudioManager audioManager;
@@ -14,7 +16,7 @@ namespace Tower
         private Queue<GameObject> targets = new Queue<GameObject>();
         private bool canAttack = true;
         private float attackTimer;
-        [SerializeField] private float attackCooldown;
+        [SerializeField] public float attackCooldown;
         public int damage;
 
         private void FixedUpdate()

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f41ee9-8824-4a2d-8dd7-7939fc1165e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" afterDir="false" />
@@ -32,8 +35,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/NextWave.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -55,8 +58,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Singleton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawn.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyLife.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LifeBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
@@ -68,7 +69,6 @@
       <option value="$PROJECT_DIR$/Assets/UpgradeButtons.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower/CreatingTowers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerUpgrade.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController/LifeBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/ObjectPool.cs" />
@@ -78,9 +78,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/GameOver.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower/DropAndDrag.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/PauseMenu.cs" />
