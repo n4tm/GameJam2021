@@ -1,5 +1,6 @@
 ﻿using Enemy;
 using GameController;
+using Magic;
 using UnityEngine;
 
 namespace Tower

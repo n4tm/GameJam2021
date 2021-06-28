@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f41ee9-8824-4a2d-8dd7-7939fc1165e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosion_0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion_0.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MultiAttackTower .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MultiAttackTower .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SimpleSupportTower .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SimpleSupportTower .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Configuration.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Configuration.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Magic/CreateMagic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Magic/CreateMagic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower/TowerAttack.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +26,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/NextWave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/Wave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -82,6 +73,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController/ButtonControllers/PauseMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Magic/CreateMagic.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uHRC1hhUbXwq5sTkGwafMwHyjZ" />
@@ -149,6 +141,7 @@
       <workItem from="1624765375018" duration="4994000" />
       <workItem from="1624799590113" duration="9093000" />
       <workItem from="1624847265701" duration="1463000" />
+      <workItem from="1624880945786" duration="51000" />
     </task>
     <servers />
   </component>

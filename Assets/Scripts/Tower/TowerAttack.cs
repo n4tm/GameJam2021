@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using GameController;
+using Magic;
 using Sounds;
 using UnityEngine;
 
