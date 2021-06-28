@@ -1243,6 +1243,46 @@ MonoBehaviour:
     m_Y: 0
     m_Width: 6
     m_Height: 1023
+  - m_X: 711
+    m_Y: 83
+    m_Width: 312
+    m_Height: 940
+  - m_X: 556
+    m_Y: 83
+    m_Width: 25
+    m_Height: 64
+  - m_X: 621
+    m_Y: 166
+    m_Width: 402
+    m_Height: 857
+  - m_X: 621
+    m_Y: 147
+    m_Width: 25
+    m_Height: 876
+  - m_X: 491
+    m_Y: 230
+    m_Width: 532
+    m_Height: 793
+  - m_X: 253
+    m_Y: 211
+    m_Width: 53
+    m_Height: 8
+  - m_X: 224
+    m_Y: 302
+    m_Width: 799
+    m_Height: 721
+  - m_X: 224
+    m_Y: 294
+    m_Width: 29
+    m_Height: 729
+  - m_X: 318
+    m_Y: 249
+    m_Width: 705
+    m_Height: 774
+  - m_X: 318
+    m_Y: 219
+    m_Width: 43
+    m_Height: 804
   m_fontInfo:
     Name: 
     PointSize: 0
