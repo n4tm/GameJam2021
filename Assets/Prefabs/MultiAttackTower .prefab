@@ -124,7 +124,6 @@ MonoBehaviour:
   _canBePlaced: {fileID: 8747685086597954729}
   dadTower: {fileID: 8747685087236673805}
   finalPos: {x: 0, y: 0, z: 0}
-  _money: 1000
   TowerCost: 250
   IsDraggable: 1
 --- !u!114 &8747685086597954729
@@ -356,7 +355,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0af8a5c9ad23a1f4396c97fe413439f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _drop: {fileID: 8747685086597954902}
   Towers:
   - {fileID: 0}
   - {fileID: 0}

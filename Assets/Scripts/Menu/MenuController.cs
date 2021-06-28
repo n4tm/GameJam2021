@@ -1,20 +1,23 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuController : MonoBehaviour
+namespace Menu
 {
-    public void EnterPlayMode()
+    public class MenuController : MonoBehaviour
     {
-        SceneManager.LoadScene("Game");
-    }
+        public void EnterPlayMode()
+        {
+            SceneManager.LoadScene("Game");
+        }
 
-    public void EnterConfiguration()
-    {
-        SceneManager.LoadScene("Configuration");
-    }
+        public void EnterCredits()
+        {
+            SceneManager.LoadScene("Credits");
+        }
 
-    public void BackToMenu()
-    {
-        SceneManager.LoadScene("Menu");
+        public void BackToMenu()
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 }
